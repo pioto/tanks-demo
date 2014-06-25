@@ -156,7 +156,7 @@ draw_tanks() {
     // turret
     glPushMatrix();
     glRotatef(RAD_TO_DEG(angle), 0, 0, 1);
-    glBegin(GL_LINE_STRIP);
+    glBegin(GL_LINES);
     glVertex3f(0, 0, 0);
     glVertex3f(0.1, 0, 0);
     glEnd();
